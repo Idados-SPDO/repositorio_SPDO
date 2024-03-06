@@ -17,7 +17,7 @@ def team_page(team_name):
                     button_expander = st.button(link_name)
                     if button_expander:
                         for sublink in sublinks:
-                            st.write(f"[{sublink['name']}]({sublink['url']})")
+                             st.write(f"<div><a href='{sublink['url']}' style='margin-right: 20px;'>{sublink['name']}</a>&#128209 Tutorial</div>", unsafe_allow_html=True)  # Adiciona o texto "Tutorial" ao lado do link com um espaço de 20px entre o link e o emoji do livro
 
     else:
         st.markdown("<h1 style='text-align: center; font-size:100px;'>SPDO</h1>", unsafe_allow_html=True)
