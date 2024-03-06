@@ -1,0 +1,64 @@
+{
+    "areas": [
+        {
+            "name": "Cadastramento e Governança BP",
+            "links": [
+                {
+                    "name": "Calculadora Digital",
+                    "sublinks": [
+                        {"name": "Teste 1", "url": "https://calculadora-ehmlxleg8k28ehpsa4ox77.streamlit.app/"}
+                    ]
+                },
+                {
+                    "name": "Globo.com",
+                    "sublinks": [
+                        {"name": "Tratar Lote", "url": "https://www.globo.com/"},
+                        {"name": "Ensaio", "url": "https://www.globo.com/"}
+                    ]
+                },
+                {
+                    "name": "Busca de informantes",
+                    "sublinks": [
+                        {"name": "Teste", "url": "https://www.globo.com/"}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Coleta Tradicional",
+            "links": []
+        },
+        {
+            "name": "Coleta Não Tradicional",
+            "links": []
+        },
+        {
+            "name": "Inteligência de Dados",
+            "links": []
+        },
+        {
+            "name": "Pessoas e Qualidade",
+            "links": []
+        },
+        {
+            "name": "Processos e Projetos",
+            "links": []
+        },
+        {
+            "name": "Relacionamento",
+            "links": []
+        },
+        {
+            "name": "Setorial",
+            "links": []
+        },
+        {
+            "name": "Sondagem",
+            "links": []
+        },
+        {
+            "name": "Vertical",
+            "links": []
+        }
+    ]
+}
