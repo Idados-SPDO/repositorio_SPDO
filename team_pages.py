@@ -1,35 +1,23 @@
 import streamlit as st
+import json
 
-areas = {
-    "Cadastramento e Governança BP": {"Calculadora Digital":{"teste1": "https://calculadora-ehmlxleg8k28ehpsa4ox77.streamlit.app/"}, 
-                                      "Globo.com": {"Tratar Lote": "https://www.globo.com/", 
-                                                    "Ensaio": "https://www.globo.com/"},
-                                      "Busca de informantes":{"teste": "https://www.globo.com/"}},
-    "Coleta Tradicional": {},
-    "Coleta Não Tradicional": {},
-    "Inteligência de Dados": {},
-    "Pessoas e Qualidade": {},
-    "Processos e Projetos": {},
-    "Relacionamento": {},
-    "Setorial": {},
-    "Sondagem": {},
-    "Vertical": {}
-}
+with open("apps.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
 
 def team_page(team_name):
     if team_name != 'Selecione a sua área aqui...':
         st.markdown(f'<h1 style="text-align: center; font-size:24px">Aplicações da área de {team_name}</h1>', unsafe_allow_html=True)
         st.markdown("<h1 style='text-align: left; font-size:18px; font-weight:lighter;'>Selecione abaixo o app que deseja utilizar:</h1>", unsafe_allow_html=True)
-        links = areas[team_name]
-        for link_name, sublinks in links.items():
-            if sublinks:
-                button_expander = st.button(link_name)
-                if button_expander:
-                    for sublink_name, sublink_url in sublinks.items():
-                        st.write(f"[{sublink_name}]({sublink_url})")
-            else:
-                st.write(f"[{link_name}]")
-        # Adicione aqui as funcionalidades específicas para cada equipe
+        for area in data["areas"]:
+            if area["name"] == team_name:
+                links = area["links"]
+                for link in links:
+                    link_name = link["name"]
+                    sublinks = link["sublinks"]
+                    button_expander = st.button(link_name)
+                    if button_expander:
+                        for sublink in sublinks:
+                            st.write(f"[{sublink['name']}]({sublink['url']})")
 
     else:
         st.markdown("<h1 style='text-align: center; font-size:100px;'>SPDO</h1>", unsafe_allow_html=True)
