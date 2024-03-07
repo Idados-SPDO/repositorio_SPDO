@@ -17,7 +17,11 @@ def team_page(team_name):
                     button_expander = st.button(link_name)
                     if button_expander:
                         for sublink in sublinks:
-                             st.write(f"<div><span style='margin-right: 5px;'>&#128193</span><a href='{sublink['url']}' style='text-decoration: none; margin-right: 20px;'>{sublink['name']}</a>&#128209 Tutorial</div>", unsafe_allow_html=True)
+                            if "tutorial_url" in sublink:
+                                tutorial_url = sublink["tutorial_url"]
+                                st.write(f"<div><span style='margin-right: 5px;'>&#128193</span><a href='{sublink['url']}' target='_blank' style='text-decoration: none; margin-right: 20px;'>{sublink['name']}</a><a href='{tutorial_url}' target='_blank' style='text-decoration: none;'>&#128209 Tutorial</a></div>", unsafe_allow_html=True)
+                            else:
+                                st.write(f"<div><span style='margin-right: 5px;'>&#128193</span><a href='{sublink['url']}' target='_blank' style='text-decoration: none; margin-right: 20px;'>{sublink['name']}</a></div>", unsafe_allow_html=True)
     else:
         st.markdown("<h1 style='text-align: center; font-size:100px;'>SPDO</h1>", unsafe_allow_html=True)
         st.markdown("<h1 style='text-align: center;'>REPOSITÓRIO DE APLICAÇÕES</h1>", unsafe_allow_html=True)

@@ -6,7 +6,7 @@
                 {
                     "name": "Calculadora Digital",
                     "sublinks": [
-                        {"name": "Teste 1", "url": "https://calculadora-ehmlxleg8k28ehpsa4ox77.streamlit.app/"}
+                        {"name": "Teste 1", "url": "https://calculadora-ehmlxleg8k28ehpsa4ox77.streamlit.app/", "tutorial_url": "https://github.com/Fortunato-FGV/SPDO_tutoriais/blob/main/calculadora.md"}
                     ]
                 },
                 {
