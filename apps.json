@@ -2,31 +2,18 @@
     "areas": [
         {
             "name": "Cadastramento e Governança BP",
-            "links": [
-                {
-                    "name": "Calculadora Digital",
-                    "sublinks": [
-                        {"name": "Teste 1", "url": "https://calculadora-ehmlxleg8k28ehpsa4ox77.streamlit.app/", "tutorial_url": "https://github.com/Fortunato-FGV/SPDO_tutoriais/blob/main/calculadora.md"}
-                    ]
-                },
-                {
-                    "name": "Globo.com",
-                    "sublinks": [
-                        {"name": "Tratar Lote", "url": "https://www.globo.com/"},
-                        {"name": "Ensaio", "url": "https://www.globo.com/"}
-                    ]
-                },
-                {
-                    "name": "Busca de informantes",
-                    "sublinks": [
-                        {"name": "Teste", "url": "https://www.globo.com/"}
-                    ]
-                }
-            ]
+            "links": []
         },
         {
             "name": "Coleta Tradicional",
-            "links": []
+            "links": [
+                {
+                    "name": "Base de Dados - CI",
+                    "sublinks": [
+                        {"name": "Acessar APP", "url": "https://gerador-base-de-dados-cis.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/SPDO_Tutoriais/blob/main/base_de_dados_ci.md"}
+                    ]
+                }
+            ]
         },
         {
             "name": "Coleta Não Tradicional",
