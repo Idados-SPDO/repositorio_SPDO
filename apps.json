@@ -12,6 +12,12 @@
                     "sublinks": [
                         {"name": "Acessar APP", "url": "https://gerador-base-de-dados-cis.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/SPDO_Tutoriais/blob/main/base_de_dados_ci.md"}
                     ]
+                },
+                {
+                    "name": "Acompanhamento GA",
+                    "sublinks": [
+                        {"name": "Acessar APP", "url": "https://spdoacompanhamentoga.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/SPDO_Tutoriais/blob/main/acompanhamento_GA.md"}
+                    ]
                 }
             ]
         },
