@@ -43,6 +43,14 @@
         },
         {
             "name": "Setorial",
+            "links": []
+        },
+        {
+            "name": "Sondagem",
+            "links": []
+        },
+        {
+            "name": "Vertical",
             "links": [
                 {
                     "name": "AutoForms",
@@ -51,14 +59,6 @@
                     ]
                 }            
             ]
-        },
-        {
-            "name": "Sondagem",
-            "links": []
-        },
-        {
-            "name": "Vertical",
-            "links": []
         }
     ]
 }
