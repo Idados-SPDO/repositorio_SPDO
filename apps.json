@@ -43,7 +43,14 @@
         },
         {
             "name": "Setorial",
-            "links": []
+            "links": [
+                {
+                    "name": "AutoForms",
+                    "sublinks": [
+                        {"name": "Acessar APP", "url": "https://appautoforms.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/SPDO_Tutoriais/blob/main/autoforms.md"}
+                    ]
+                }            
+            ]
         },
         {
             "name": "Sondagem",
