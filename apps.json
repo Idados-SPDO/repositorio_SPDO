@@ -47,7 +47,14 @@
         },
         {
             "name": "Sondagem",
-            "links": []
+            "links": [
+                {
+                    "name": "Automatizacao de Mailings",
+                    "sublinks": [
+                        {"name": "Acessar APP", "url": "https://automatizacao-mailings.streamlit.app", "tutorial_url": "https://github.com/Idados-SPDO/SPDO_Tutoriais/blob/main/autoforms.md"}
+                    ]
+                }      
+            ]
         },
         {
             "name": "Vertical",
