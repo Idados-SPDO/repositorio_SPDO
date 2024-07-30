@@ -64,6 +64,12 @@
                     "sublinks": [
                         {"name": "Acessar APP", "url": "https://appautoforms.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/SPDO_Tutoriais/blob/main/autoforms.md"}
                     ]
+                },
+                {
+                    "name": "Contagem Status das Empresas",
+                    "sublinks": [
+                        {"name": "Acessar APP", "url": "https://contagemstatusempresas.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/SPDO_Tutoriais/blob/main/contagemstatusempresas.md"}
+                    ]
                 }            
             ]
         }
