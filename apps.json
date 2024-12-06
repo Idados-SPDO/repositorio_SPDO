@@ -27,7 +27,14 @@
         },
         {
             "name": "Inteligência de Dados",
-            "links": []
+            "links": [
+                {
+                    "name": "Fechamento de Preços - modernização",
+                    "sublinks": [
+                        {"name": "Acessar APP", "url": "https://modernizacao-do-fechamento-de-precos.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/SPDO_Tutoriais/blob/main/base_de_dados_ci.md"}
+                    ]
+                }
+            ]
         },
         {
             "name": "Pessoas e Qualidade",
@@ -48,12 +55,6 @@
         {
             "name": "Sondagem",
             "links": [
-                {
-                    "name": "Automatizacao do Histórico de Sondagem",
-                    "sublinks": [
-                        {"name": "Acessar APP", "url": "https://automatizacao-historico-sondagem.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/SPDO_Tutoriais/blob/main/autoforms.md"}
-                    ]
-                },
                 {
                     "name": "Automatizacao de Mailings",
                     "sublinks": [
