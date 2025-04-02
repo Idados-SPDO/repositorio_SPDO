@@ -39,7 +39,7 @@
                 {
                     "name": "App de Acompanhamento do IPC",
                     "sublinks": [
-                        {"name": "Acessar APP", "url": "https://app-ipc.streamlit.app/", "tutorial_url": "https://src.tic.fgv.br/projects/IBRER/repos/operacional-spdo/browse/src/projeto-ipc?at=refs%2Fheads%2Fproject%2Fprojecto-ipc"}
+                        {"name": "Acessar APP", "url": "https://app-ipc.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/projeto-ipc/blob/main/Tutorial-APP-IPCv1.pptx"}
                     ]
                 }
             ]
