@@ -18,6 +18,12 @@
                     "sublinks": [
                         {"name": "Acessar APP", "url": "https://spdoacompanhamentoga.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/SPDO_Tutoriais/blob/main/acompanhamento_GA.md"}
                     ]
+                },
+                {
+                    "name": "App Justificativa",
+                    "sublinks":[
+                        {"name": "Acessar APP" , "url": "https://app-justificativa.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/app-justificativa/blob/main/README.md"}
+                    ]
                 }
             ]
         },
