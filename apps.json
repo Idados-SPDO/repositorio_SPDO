@@ -98,6 +98,17 @@
                     ]
                 }            
             ]
+        },
+        {
+            "name": "Planejamento e Controle (Vertical)",
+            "links": [
+                {
+                    "name": "Resumo de Fichas Técnicas",
+                    "sublinks": [
+                        {"name": "Acessar APP", "url": "https://spdo-app-resumo-ficha-tecnica.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/app-resumo-ficha-tecnica/blob/main/README.md"}
+                    ]
+                }         
+            ]
         }
     ]
 }
