@@ -10,7 +10,7 @@ def main():
     if not st.session_state.authenticated:
         if login():
             st.session_state.authenticated = True
-            st.experimental_rerun()
+            st.rerun()
     
     else:
         st.sidebar.image('fgv.png', use_column_width=True)
