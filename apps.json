@@ -18,12 +18,6 @@
                     "sublinks": [
                         {"name": "Acessar APP", "url": "https://spdoacompanhamentoga.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/SPDO_Tutoriais/blob/main/acompanhamento_GA.md"}
                     ]
-                },
-                {
-                    "name": "App Justificativa",
-                    "sublinks":[
-                        {"name": "Acessar APP" , "url": "https://app-justificativa.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/app-justificativa/blob/main/README.md"}
-                    ]
                 }
             ]
         },
@@ -46,6 +40,18 @@
                     "name": "App de Acompanhamento do IPC",
                     "sublinks": [
                         {"name": "Acessar APP", "url": "https://app-ipc.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/projeto-ipc/blob/main/Tutorial-APP-IPCv1.pptx"}
+                    ]
+                },
+                {
+                    "name": "Automatizador de Relatórios PCRJ",
+                    "sublinks": [
+                        {"name": "Acessar APP", "url": "https://spdo-app-relatorio-pcrj.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/app-relatorio-pcrj"}
+                    ]
+                },
+                {
+                    "name": "Resumo de Fichas Técnicas",
+                    "sublinks": [
+                        {"name": "Acessar APP", "url": "https://spdo-app-relatorio-pcrj.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/app-resumo-ficha-tecnica"}
                     ]
                 }
             ]
@@ -96,18 +102,13 @@
                     "sublinks": [
                         {"name": "Acessar APP", "url": "https://contagemstatusempresas.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/SPDO_Tutoriais/blob/main/contagemstatusempresas.md"}
                     ]
-                }            
-            ]
-        },
-        {
-            "name": "Planejamento e Controle (Vertical)",
-            "links": [
+                },
                 {
-                    "name": "Resumo de Fichas Técnicas",
+                    "name": "App de visualização de fichas",
                     "sublinks": [
-                        {"name": "Acessar APP", "url": "https://spdo-app-resumo-ficha-tecnica.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/app-resumo-ficha-tecnica/blob/main/README.md"}
+                        {"name": "Acessar APP", "url": "https://spdo-apps-visualizador-fichas.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/app-visualizador-fichas"}
                     ]
-                }         
+                }            
             ]
         }
     ]
