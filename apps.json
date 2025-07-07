@@ -18,6 +18,22 @@
                     "sublinks": [
                         {"name": "Acessar APP", "url": "https://spdoacompanhamentoga.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/SPDO_Tutoriais/blob/main/acompanhamento_GA.md"}
                     ]
+                },
+                {
+                    "name": "App Justificativa",
+                    "sublinks": [
+                        {"name": "Acessar APP", "url": "https://app-justificativa.streamlit.app/", "tutorial_url": "https://github.com/Idados-SPDO/app-justificativa/blob/main/README.md"}
+                    ],
+                    "videos_tutorial": [
+                        {
+                            "name": "Tutorial Parte 1 - Aba Visualização de Justificativa",
+                            "src": "videos/app_just/tutorial1.mp4"
+                        },
+                        {
+                            "name": "Tutorial Parte 2 - Aba Adicionar Justificativa",
+                            "src": "videos/app_just/tutorial2.mp4"
+                        }
+                    ] 
                 }
             ]
         },
