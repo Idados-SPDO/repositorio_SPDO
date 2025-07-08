@@ -9,7 +9,7 @@ def load_credentials():
 credenciais = load_credentials()
 
 def login():
-    st.sidebar.image('fgv.png', use_column_width=True)
+    st.sidebar.image('fgv.png', use_container_width=True)
     st.sidebar.markdown('---')  # Adicionando uma linha horizontal para separar o título do conteúdo
     username = st.sidebar.text_input("Usuário")
     password = st.sidebar.text_input("Senha", type="password")
