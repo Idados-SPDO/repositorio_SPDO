@@ -13,7 +13,7 @@ def main():
             st.rerun()
     
     else:
-        st.sidebar.image('fgv.png', use_column_width=True)
+        st.sidebar.image('fgv.png', use_container_width=True)
         st.sidebar.markdown('---')  # Adicionando uma linha horizontal para separar o título do conteúdo
 
         # Lista de equipes
